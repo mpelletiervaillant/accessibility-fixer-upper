@@ -2,20 +2,16 @@ html {
   font-family: Merriweather, serif;
 }
 
+.skip-links {
+  position: absolute;
+  top: -3em;
+}
+
 .color-brand {
   color: #568c36;
 }
 
 .color-brand-dark {
-  color: #113c00;
-}
-
-a {
-  color: #568c36;
-  text-decoration: none;
-}
-
-a:hover {
   color: #113c00;
 }
 
@@ -31,6 +27,10 @@ nav {
   z-index: 2;
 }
 
+a {
+  color: #568c36;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
@@ -38,6 +38,10 @@ nav a {
 
 .nav a:hover {
   background-color: #fff;
+  color: #113c00;
+}
+
+a:hover {
   color: #113c00;
 }
 
